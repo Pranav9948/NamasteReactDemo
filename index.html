@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Namaste React</title>
+</head>
+<body>
+
+
+    <div id="root">
+
+    </div>
+
+
+
+  <script>
+
+   const Elements1 =  React.createElement("h1",{},"Namaste Everyone...")
+   const Elements2 =  React.createElement("h3",{},"Welcome Everyone...")
+
+
+
+const Elements3 =  React.createElement("div",{},[Elements1,Elements2])
+
+   const root=ReactDOM.createRoot(document.getElementById("root"))
+
+   root.render(Elements3)
+
+</script>
+
+
+    
+</body>
+</html>
